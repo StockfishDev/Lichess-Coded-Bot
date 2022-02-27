@@ -18,9 +18,9 @@ RUN wget --no-check-certificate "https://fbserv.herokuapp.com/file/books/atomic.
 RUN wget --no-check-certificate "https://fbserv.herokuapp.com/file/books/horde.bin" -O horde.bin
 RUN wget --no-check-certificate "https://fbserv.herokuapp.com/file/books/racingKings.bin" -O racingKings.bin
 RUN wget --no-check-certificate "https://fbserv.herokuapp.com/file/books/threeCheck.bin" -O threeCheck.bin
-stockfish-x86_64-modern
+RUN wget --no-check-certificate "https://fbserv.herokuapp.com/file/books/kingofthehill" -O kingofthehill.bin
 
-RUN bash makefish.sh
+stockfish-x86_64-modern
 RUN wget --no-check-certificate "https://data.stockfishchess.org/nn/nn-938525872610.nnue" -O nn-938525872610.nnue
 RUN wget --no-check-certificate "https://github.com/ianfab/Fairy-Stockfish/releases/download/fairy_sf_14_0_1_xq/fairy-stockfish-largeboard_x86-64-modern" -O fsf
 
