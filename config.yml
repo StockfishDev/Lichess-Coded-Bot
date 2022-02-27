@@ -1,9 +1,9 @@
-token: "lip_x3U2hMx8KVmzjd0JVQ3S"    # Lichess OAuth2 Token.
+token: "lip_5ZLOYQOmhE7q0WAB7GVo"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
   dir: "./"                  # Directory containing engines, relative to this project.
-  name: "stockfish-x86_64-modern"    # Binary name of the engine to use.
+  name: "stockfish_x64_modern"    # Binary name of the engine to use.
   sfname: "stockfish"
   antiname: "fsf"
   protocol: "uci"            # "uci" or "xboard"
