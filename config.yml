@@ -1,4 +1,4 @@
-token: "lip_XDtc2avGaKT0yVyTjRtT"    # Lichess OAuth2 Token.
+token: "lip_TfXt1KoJDBCHCMTxAtmu"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
@@ -47,8 +47,8 @@ option name Threads type spin : 20
 option name Hash type spin : 32768
 option name Ponder type check : true
 option name MultiPV type spin : 1
-option name Skill Level type spin : 25
-option name Move Overhead type spin : 6000
+option name Skill Level type spin : 20
+option name Move Overhead type spin : 5000
 option name nodestime type spin : 0
 option name UCI_Chess960 type check : false
 option name UCI_AnalyseMode type check : false
@@ -78,12 +78,12 @@ abort_time: 30               # time to abort a game in seconds when there is no 
 fake_think_time: false       # artificially slow down the bot to pretend like it's thinking
 
 challenge:                   # incoming challenges
-  concurrency: 2             # number of games to play simultaneously
+  concurrency: 1             # number of games to play simultaneously
   sort_by: "best"            # possible values: "best", "first"
   accept_bot: true          # accepts challenges coming from other bots
   only_bot: false            # accept challenges by bots only
   max_increment: 180         # maximum amount of increment to accaept a challenge. the max is 180. set to 0 for no increment
-  min_increment: 1           # minimum amount of increment to accept a challenge
+  min_increment: 0           # minimum amount of increment to accept a challenge
   variants:                  # chess variants to accept (http://lichess.org/variant)
     - standard
 #   - fromPosition
