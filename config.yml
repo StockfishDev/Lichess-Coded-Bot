@@ -85,7 +85,7 @@ challenge:                   # incoming challenges
   max_increment: 180         # maximum amount of increment to accaept a challenge. the max is 180. set to 0 for no increment
   min_increment: 1           # minimum amount of increment to accept a challenge
   variants:                  # chess variants to accept (http://lichess.org/variant)
-    - standard
+#   - standard
 #   - fromPosition
     - antichess
     - atomic
